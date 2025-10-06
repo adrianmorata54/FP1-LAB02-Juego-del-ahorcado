@@ -121,7 +121,6 @@ def jugar(palabra_secreta = elige_palabra(), num_max_intentos = 6):
     Devuelve:
     Toda la dinámica del juego
     '''
-    solucion = palabra_secreta
     palabra_secreta = normalizar(palabra_secreta)
     palabra_enmascarada = palabra_secreta
     palabra_enmascarada = ocultar(palabra_enmascarada)
